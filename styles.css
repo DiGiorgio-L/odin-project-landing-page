@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    flex-basis: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.block-1 {
+    background-color: #1f2937;
+    flex: 1 1 auto;
+}
+
+.block-2 {
+    flex: 1 1 auto;
+}
+
+.block-3 {
+    background-color: #E5E7EB;
+    flex: 1 1 auto;
+}
+
+.block-4{
+    flex: 1 2 auto;
+}
